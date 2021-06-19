@@ -118,6 +118,12 @@ Single Thread Rating: 1950
 Cross-Platform Rating: 68,469
 Samples: 27*: (in my runs these days, 19.6.2021)
 ```
+Sometimes the CPU is an older one:
+
+```
+Intel(R) Xeon(R) CPU @ 2.30GHz [Family 6 Model 63 Stepping 0]
+```
+From the 5-th generation Core.
 
 Check it with: 
 
