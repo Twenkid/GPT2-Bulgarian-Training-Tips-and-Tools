@@ -17,21 +17,14 @@ Fri Jun 18 04:29:21 2021
 |===============================+======================+======================|
 |   0  Tesla T4            Off  | 00000000:00:04.0 Off |                    0 |
 | N/A   73C    P0    34W /  70W |  14218MiB / 15109MiB |      0%      Default |
-|                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
                                                                                
-+-----------------------------------------------------------------------------+
-| Processes:                                                                  |
-|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
-|        ID   ID                                                   Usage      |
-|=============================================================================|
-+-----------------------------------------------------------------------------+
 ```
 
 * It is possible to train gpt2-medium size transformer on Google Colab when you get a Tesla T4 with 16 GB (it shows 15). With the settings which I managed to run it occupies about 14 GB while training (13.88 GB) with config:
-*
+
 ```
-# MEDIUM
+# Medium
 num_heads = 16
 configBIG = GPT2Config(
   vocab_size=tokenizerBIG.vocab_size,
@@ -39,13 +32,13 @@ configBIG = GPT2Config(
   eos_token_id=tokenizerBIG.eos_token_id,
   n_embd= 1024,
   n_head = num_heads,
-  n_layer = 24 #num_layers #24 #24
+  n_layer = 24
 )
 
 block_size = 100
 BATCH_SIZE = num_heads 
 BUFFER_SIZE = 5000 # 
-```
+
 Also with BUFFER_SIZE = 100 * num_heads (3600).
 BUFFER_SIZE is for the dataset preparation.
 
@@ -80,14 +73,17 @@ GPT2Config {
   "use_cache": true,
   "vocab_size": 50255
 }
-''' 
+```
+
 
 The model required the batch size to be equal to the number of heads, otherwise it fails to fit the tensors.
 For other configs see https://huggingface.co/transformers/v2.2.0/pretrained_models.html 
 
 One error message, after debugging, also suggested that the size of the embedding vector should be divisible to the number of heads.
+```
 768/12 - SMALL
 1024/16 - MEDIUM...
+```
 
 ## Training ...
 
@@ -98,9 +94,9 @@ Shorter context, lenght = 100, temperature = 1 ~ 0:42
 Save the model after each iteration/run of epochs.
 Connect to your Google Drive and store it there in order to avoid losing data if you forget or be late to download the model. Also downloading with files.download() sometimes is very slow and during that time you're not using the GPU which may be penalized and the session to be interrupted automatically. 
 
-I am not sure how much time is actually allowed and how much the actual usage of the GPU is weighed, but if you are using it consecutive days it seemed it may get lower hours and the service may start denying to give you a GPU. At first 8 hours (not constant load), then it seemed it was fewer or it denies - no indications or messages of how long you're supposed to wait etc.
+I am not sure how much time is really allowed with a GPU and how much the actual usage of the GPU is weighed, but if you are using it consecutive days, it seemed it may get lower hours and the service may start denying to give you a GPU. Some say 12 h, maybe it depends on too many variables, time of the day, where you are located. At first it seemed about ~ 7-8 hours (also if not constant load), then it seemed it was fewer next days or it just denies. It is annoying that there are no warnings neither that an interrupt is approaching so to save your work or how long you're supposed to wait if rejected.
 
-If you're on a session only with a CPU, you're given about 12.69 GB and just one core from an Intel Xeon E5-2696 v4 @ 2.20GHz
+If you're on a session only with a CPU, I receive about 12.69 GB RAM and one core from an Intel Xeon E5-2696 v4 @ 2.20GHz
 It may be enough for smaller models and small datasets for studying and debugging the process. That RAM is not enough even if the CPU was faster though.
 
 ```
