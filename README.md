@@ -1,4 +1,5 @@
-# GPT2-Training-Tips-and-Tools
+# GPT2-Bulgarian Training-Tips-and-Tools
+# Обучение на GPT2 модел на български - съвети и опит
 
 GPT2 model training experience and tools for collecting or preparing datasets. 
 
@@ -21,7 +22,7 @@ Fri Jun 18 04:29:21 2021
                                                                                
 ```
 
-* It is possible to train gpt2-medium size transformer on Google Colab when you get a Tesla T4 with 16 GB (it shows 15). With the settings which I managed to run it occupies about 14 GB while training (13.88 GB) with config:
+* It is possible to train **gpt2-medium** size transformer on Google Colab when you get a Tesla T4 with 16 GB (it shows 15). With the settings which I managed to run it occupies about 14 GB while training (13.88 GB) with config:
 
 ```
 # Medium
