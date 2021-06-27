@@ -1,5 +1,5 @@
 # Author (C): Todor Arnaudov/Twenkid, 27.6.2021
-# Converting a nasty text with mixed symbols:
+# Convert texts with a nasty mixed-alphabet encodin
 # Non-"normal" Unicode same-looking characters (searching doesn't find them with keyboard input)
 # Also Latin looking like Cyrillic in Cyrillic words and vice verse instead of latin
 # y->у, o->о, etc.
@@ -16,6 +16,7 @@
 import os
 
 path = "J:\\convert.txt"
+src = r"Z:\CLEAN\computers\IT_Kaldata-razdel-bez-html.txt"
 
 print("READING?")
 f = open(path, "rt", encoding='utf-8')
@@ -70,9 +71,6 @@ sr = sorted(s)
 print(sr)
 
 # J
-
-
-src = r"Z:\CLEAN\computers\IT_Kaldata-razdel-bez-html.txt"
 
 f = open(src,"rt", encoding='utf-8')
 raw = f.read()
