@@ -1,0 +1,58 @@
+python -m textblob.download_corpora
+[nltk_data] Downloading package brown to
+[nltk_data]   Unzipping corpora\brown.zip.
+[nltk_data]   Unzipping tokenizers\punkt.zip.
+[nltk_data] Downloading package wordnet to
+[nltk_data]   Unzipping corpora\wordnet.zip.
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]   Unzipping taggers\averaged_perceptron_tagger.zip.
+[nltk_data] Downloading package conll2000 to
+[nltk_data]   Unzipping corpora\conll2000.zip.
+[nltk_data] Downloading package movie_reviews to
+[nltk_data]   Unzipping corpora\movie_reviews.zip.
+Finished.
+
+python tb.py
+
+['Beautiful', 'is', 'better', 'than', 'ugly', 'Explicit', 'is', 'better', 'than'
+, 'implicit', 'Simple', 'is', 'better', 'than', 'complex']
+[Sentence("Beautiful is better than ugly."), Sentence("Explicit is better than i
+mplicit."), Sentence("Simple is better than complex.")]
+Sentiment(polarity=0.2166666666666667, subjectivity=0.8333333333333334)
+Sentiment(polarity=0.5, subjectivity=0.5)
+Sentiment(polarity=0.06666666666666667, subjectivity=0.41904761904761906)
+octopus
+go
+[Synset('octopus.n.01'), Synset('octopus.n.02')]
+[Synset('chop.v.05'), Synset('hack.v.02'), Synset('hack.v.03'), Synset('hack.v.0
+4'), Synset('hack.v.05'), Synset('hack.v.06'), Synset('hack.v.07'), Synset('hack
+.v.08')]
+['tentacles of octopus prepared as food', 'bottom-living cephalopod having a sof
+t oval body with eight long tentacles']
+0.1111111111111111
+['cat', 'dog', 'octopus']
+['cat', 'dog', 'octopus']
+['cats', 'dogs', 'octopodes']
+['cats', 'dogs', 'octopodes']
+I have good spelling!
+[('fallibility', 1.0)]
+3 3 2
+1
+And/CC/O/O now/RB/B-ADVP/O for/IN/B-PP/B-PNP something/NN/B-NP/I-PNP completely/
+RB/B-ADJP/O different/JJ/I-ADJP/O ././O/O
+Beautiful is better
+BEAUTIFUL IS BETTER THAN UGLY. EXPLICIT IS BETTER THAN IMPLICIT. SIMPLE IS BETTE
+R THAN COMPLEX.
+65
+True
+True
+apples and bananas
+apples and bananas
+[WordList(['Now', 'is', 'better']), WordList(['is', 'better', 'than']), WordList
+(['better', 'than', 'never'])]
+Beautiful is better than ugly.
+---- Starts at index 0, Ends at index 30
+Explicit is better than implicit.
+---- Starts at index 31, Ends at index 64
+Simple is better than complex.
+---- Starts at index 65, Ends at index 95
