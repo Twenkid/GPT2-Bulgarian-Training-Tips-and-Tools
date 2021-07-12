@@ -1,6 +1,6 @@
 # Original: https://textblob.readthedocs.io/en/dev/quickstart.html
 # + from textblob.blob import WordList
-# + some intermediate variables and print by Twenkid 12.7.2021
+# + some intermediate variables and print by Twenkid
 # It requires to download also the NLTK corpora in order to run properly:
 # python -m textblob.download_corpora
 
@@ -9,8 +9,12 @@ wiki = TextBlob("Python is a high-level, general-purpose programming language.")
 from textblob import TextBlob
 
 wiki = TextBlob("Python is a high-level, general-purpose programming language.")
-wiki.tags
-wiki.noun_phrases
+print(wiki.tags)
+print(wiki.noun_phrases)
+
+from textblob.blob import WordList #if missing --> NameError: name 'WordList' is not defined
+w = WordList(['python'])
+print(w)
 testimonial = TextBlob("Textblob is amazingly simple to use. What great fun!")
 testimonial.sentiment
 testimonial.sentiment.polarity
@@ -46,7 +50,7 @@ print(Word("octopus").definitions)
 #['tentacles of octopus prepared as food', 'bottom-living cephalopod having a soft oval body with eight long tentacles']
 
 from textblob.wordnet import Synset
-from textblob.blob import WordList #if missing --> NameError: name 'WordList' is not defined
+#from textblob.blob import WordList #if missing --> NameError: name 'WordList' is not defined
 octopus = Synset('octopus.n.02')
 shrimp = Synset('shrimp.n.03')
 print(octopus.path_similarity(shrimp))
