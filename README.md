@@ -3,6 +3,12 @@
 
 GPT2 model training experience and tools for collecting or preparing datasets. 
 
+* See also: 
+
+https://github.com/Twenkid/Smarty
+https://github.com/Twenkid/NLP-Computational-Linguistics
+https://github.com/Twenkid/Suchinitel-1-GPT2-Synthesizer-work
+https://github.com/Twenkid/Similarity-NLP-Corpus-CPP
 
 Side notes:
 
