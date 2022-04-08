@@ -3,8 +3,10 @@
 
 GPT2 model training experience and tools for collecting or preparing datasets. 
 
-Colab notebook: 
-See a video tutorial: https://youtu.be/F-Xt-cK4L-g
+Colab notebook: https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/blob/main/TRAIN_NEW_GPT2_MEDIUM_BIG_DATASET_20_6_2021.ipynb
+
+Watch a video tutorial: https://youtu.be/F-Xt-cK4L-g
+
 
 * See also: 
 
