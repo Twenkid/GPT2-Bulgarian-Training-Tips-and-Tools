@@ -3,6 +3,9 @@
 
 GPT2 model training experience and tools for collecting or preparing datasets. 
 
+Colab notebook: 
+See a video tutorial: https://youtu.be/F-Xt-cK4L-g
+
 * See also: 
 
 * https://github.com/Twenkid/Smarty
