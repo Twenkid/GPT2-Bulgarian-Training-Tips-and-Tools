@@ -3,6 +3,7 @@
 
 ## Update: 27.1.2023:
 https://youtu.be/V1eO2OpsXBE
+https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/blob/main/tools/gen_comments-1-2023-clean.py
 
 Unlimited-Length Imagination Directed GPT2 Chained Generation by Overlapping Prompt-Injections. The same idea can be applied for any similar generative model with a prompt for producing more creative text and for changing the topic in a directed manner, which makes the text more interesting and original and less monotonous.
 
