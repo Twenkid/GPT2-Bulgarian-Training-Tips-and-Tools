@@ -1,7 +1,19 @@
 # GPT2-Bulgarian Training-Tips-and-Tools
 # Обучение на GPT2 модел на български - съвети и опит
 
-GPT2 model training experience and tools for collecting or preparing datasets. 
+## Update: 27.1.2023:
+https://youtu.be/V1eO2OpsXBE
+
+Unlimited-Length Imagination Directed GPT2 Chained Generation by Overlapping Prompt-Injections. The same idea can be applied for any similar generative model with a prompt for producing more creative text and for changing the topic in a directed manner, which makes the text more interesting and original and less monotonous.
+
+Created in June-July 2021 while training GPT2-Medium on Colab.
+Published on 27.1.2023
+
+* A Longer Title: Unlimited-Length Imagination Directed GPT2 Chained Generation by Overlapping Prompts-Injection and removing the injected beginning of the following generated sequence
+
+...
+
+## GPT2 model training experience and tools for collecting or preparing datasets. 
 
 Colab notebook: https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/blob/main/TRAIN_NEW_GPT2_MEDIUM_BIG_DATASET_20_6_2021.ipynb
 
