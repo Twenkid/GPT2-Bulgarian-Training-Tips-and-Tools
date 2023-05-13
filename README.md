@@ -1,6 +1,19 @@
 # GPT2-Bulgarian Training-Tips-and-Tools
 # Обучение на GPT2 модел на български - съвети и опит
 
+## Transformers from scratch
+
+13.5.2023
+
+Starting from Andrej Karpathy's example, ...
+Locally: install pytorch with cuda support. Conda:
+# CUDA 11.8
+conda activate clip
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+python ... carp4.py ...
+z:\cpp  z:\cog ... //list with files --> corpus 
+
+
 ## Update: 27.1.2023:
 
 * Video tutorial: https://youtu.be/V1eO2OpsXBE
