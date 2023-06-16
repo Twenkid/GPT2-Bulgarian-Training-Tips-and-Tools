@@ -16,16 +16,18 @@ z:\cpp  z:\cog ... //list with files --> corpus
 
 ## Update: 27.1.2023:
 
-* Video tutorial: https://youtu.be/V1eO2OpsXBE
-
+* Video tutorial, updated: https://youtu.be/V1eO2OpsXBE
 * Code: https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/blob/main/tools/gen_comments-1-2023-clean.py
+* The original video tutorial: https://youtu.be/F-Xt-cK4L-g
 
-Unlimited-Length Imagination Directed GPT2 Chained Generation by Overlapping Prompt-Injections. The same idea can be applied for any similar generative model with a prompt for producing more creative text and for changing the topic in a directed manner, which makes the text more interesting and original and less monotonous.
+* Unlimited-Length Imagination Directed GPT2 Chained Generation by Overlapping Prompt-Injections. The same idea can be applied for any similar generative model with a prompt for producing more creative text and for changing the topic in a directed manner, which makes the text more interesting and original and less monotonous.
 
 Created in June-July 2021 while training GPT2-Medium on Colab.
 Published on 27.1.2023
 
 * A Longer Title: Unlimited-Length Imagination Directed GPT2 Chained Generation by Overlapping Prompts-Injection and removing the injected beginning of the following generated sequence
+
+https://www.youtube.com/watch?v=_CPDnyUjjWg
 
 ...
 
