@@ -3,6 +3,22 @@
 
 ## Transformers from scratch
 
+19.2.2024
+
+* Пробвай BGGPT-7B ВЕДНАГА с GOOGLE COLAB - без мощна видеокарта!
+
+![image](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/75f1bfce-94ce-4af1-bbb7-75c2cdb5a0a8)
+
+https://youtu.be/1aDbAJCdPK8
+
+* **Първият голям езиков модел на български, обучен от "Свещеният сметач" през 2021 г.:**
+
+**GPT2-BG MEDIUM 2021 Weights:**
+
+https://mega.nz/folder/0NpXwbhQ#8mid7QKtsjVxj2a6dP5d8Q
+
+Ръководство за ползване: виж клиповете по-долу.
+
 13.5.2023
 
 Starting from Andrej Karpathy's example, ...
