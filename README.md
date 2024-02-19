@@ -11,6 +11,8 @@
 
 https://youtu.be/1aDbAJCdPK8
 
+https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/blob/main/bggpt_sacred_computer.ipynb
+
 * **Първият голям езиков модел на български, обучен от "Свещеният сметач" през 2021 г.:**
 
 **GPT2-BG MEDIUM 2021 Weights:**
