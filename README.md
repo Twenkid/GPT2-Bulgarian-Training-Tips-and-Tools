@@ -3,11 +3,18 @@
 
 ## Transformers from scratch
 
+23.2.2024: Чат-интерфейс и още тестове в Колаб
+
+https://youtu.be/RjMa2XopdDs
+
+![image](https://github.com/Twenkid/BgGPT/assets/23367640/272ea3df-c019-48b3-8c8f-0f281ea80eaa)
+
 19.2.2024
 
 * Пробвай BGGPT-7B ВЕДНАГА с GOOGLE COLAB - без мощна видеокарта!
 
 ![image](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/75f1bfce-94ce-4af1-bbb7-75c2cdb5a0a8)
+
 
 https://youtu.be/1aDbAJCdPK8
 
