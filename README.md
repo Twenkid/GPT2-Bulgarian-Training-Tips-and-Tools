@@ -4,7 +4,10 @@
 
 ## Transformers from scratch
 
-Scroll down for the GPT-2 part.
+Scroll down for the GPT-2 part below
+* GPT-2 Note, 29.2.2024: The vocabulary size was 50255 instead of 50257! Lately I was trying to convert it to ggml format and work with it with the blazing fast library on the CPU, but still there are issues with the conversion (however due to some tensorflow-pytorch formats issues, I managed to pad the vocabulary-size difference. https://github.com/ggerganov/ggml/issues/745  ))
+
+## BgGPT-7B-Instruct - running on Colab, tests, tools, tips etc.
 
 27.2.2024: 
 
@@ -37,6 +40,8 @@ https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/blob/main/bggp
 **GPT2-BG MEDIUM 2021 Weights:**
 
 https://mega.nz/folder/0NpXwbhQ#8mid7QKtsjVxj2a6dP5d8Q
+
+* Note, 29.2.2024: The vocabulary size was 50255 instead of 50257! Lately I was trying to convert it to ggml format and work with it with the blazing fast library on the CPU, but still there are issues with the conversion (however due to some tensorflow-pytorch formats issues, I managed to pad the vocabulary-size difference. https://github.com/ggerganov/ggml/issues/745  )
 
 Ръководство за ползване: виж клиповете по-долу.
 
