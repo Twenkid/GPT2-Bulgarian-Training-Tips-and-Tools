@@ -1,7 +1,19 @@
 # GPT2-Bulgarian Training-Tips-and-Tools
-# Обучение на GPT2 модел на български - съвети и опит
+# + BgGPT 
+## Обучение на GPT2 модел на български - съвети и опит<br>и Работа с BgGPT и допълнителни възможности и приложения
 
 ## Transformers from scratch
+
+Scroll down for the GPT-2 part.
+
+27.2.2024: 
+
+* **Част 3: Групови/пакетни заявки, Халюцинации, температура, top-k ...**
+* **BGGPT #3: ИЗКУСТВЕН ИНТЕЛЕКТ: ХАЛЮЦИНАЦИИ, ГРУПОВИ ЗАЯВКИ, ПРЕВОД, ПАРАМЕТРИ ... БЕЗПЛАТНО В КОЛАБ**
+
+https://youtu.be/BEpoaC_7Y2Y
+
+![image](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/f620f5ba-244c-4b31-a96b-a427574796f6)
 
 23.2.2024: Чат-интерфейс и още тестове в Колаб
 
@@ -61,6 +73,13 @@ https://www.youtube.com/watch?v=_CPDnyUjjWg
 Colab notebook: https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/blob/main/TRAIN_NEW_GPT2_MEDIUM_BIG_DATASET_20_6_2021.ipynb
 
 Watch a video tutorial: https://youtu.be/F-Xt-cK4L-g
+
+![gpt2](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/92142e35-2b89-44b6-81c3-0ded99c6b325)
+
+![gpt2-2023](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/3ffe0e57-52e6-4bc0-9e72-306bc3b94ff0)
+
+![gpt-unlimited](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/c55438a2-eb79-4f85-ab5e-94538e73a913)
+
 
 
 * See also: 
