@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 #from tokenise import BPE_token
 from tokenizers.models import BPE
 from tokenizers import Tokenizer
@@ -30,13 +31,22 @@ Created in June-July 2021 while training GPT2-Medium on Colab.
 
 Published in 1.2023
 
+7-4-2024:
+
+Fixed typos/errors after the cleaning of code which I haven't tested.
+
+Recently when testing llama.cpp GGML implementation, trying to convert the model to pytorch etc. to run with Georgi Gerganov's library, hoping that it would be faster. However I discovered that there were problems with GPT2 converstion and also that I've created a slightly "odd" GPT-2 model with 50255 tokens instead of 50257. It works fine with the python script and generation as I was using it. I made attempts to repair it for the converter by hacking it to reshape the tensor on the fly, but  it didn't resolve the issue as probably there were other problems with the convertor itself.
+
+Future work: applying and extending this prompt-injection with GPT4All which is already used in my workflows and projects with speech recognition through Whisper, recording with AutoClap, which will be connected to the new version of Smarty - the intelligent dictionary - the speech synthesizer "Toshko 2" (now probably Toshko 3) and my yet in-house Research Assistant ACS. (...)
+
 """
 
+#Move up: #7-4-2024
+#os.environ['CUDA_VISIBLE_DEVICES'] = '-1'#Can't fit MEDIUM in GPU - can't train even small?
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1' #Can't fit MEDIUM in GPU - can't train even small?
-
-#LOAD
-model_dir = r"Z:\gpt2"
+#LOAD -- SET PROPER PATH!!!
+model_dir = r"C:\gpt" #2"
+m_model_dir = model_dir
 
 tokenizer = None; model = None
 
@@ -85,23 +95,8 @@ def gen_return(tokenizer, length=100, beams=16, t=1.0, ngram=2, seq=1, top_k=40,
     num_beams = beams, #16,
     temperature = t, #1.0,
     no_repeat_ngram_size=ngram, #2,
-    num_return_sequences=seq, #1
-    top_k =   beam_output = model.generate(
-    input_ids,
-    max_length = length, #150,
-    num_beams = beams, #16,
-    temperature = t, #1.0,
-    no_repeat_ngram_size=ngram, #2,
-    num_return_sequences=seq, #1
-    top_k =   beam_output = model.generate(
-    input_ids,
-    max_length = length, #150,
-    num_beams = beams, #16,
-    temperature = t, #1.0,
-    no_repeat_ngram_size=ngram, #2,
-    num_return_sequences=seq, #1
-    top_k = top_k
-  ) 
+    num_return_sequences=seq) #1
+    #top_k =    
   ret = []  
   for i in range(0,seq):
     print(tokenizer.decode(beam_output[i]))    
@@ -279,7 +274,7 @@ def genRecurse(): #28.6.2021
         
     #LOAD
     #'''
-    model_dir = r"Z:\gpt2"
+    model_dir = m_model_dir #r"Z:\gpt2"
     tokenizer = GPT2Tokenizer.from_pretrained(model_dir)
     model = TFGPT2LMHeadModel.from_pretrained(model_dir)
     #'''
@@ -477,7 +472,7 @@ def genRecurseTwo():
     last_context = 70 #80 #symbols from the previous stretch  #intermediate?
     #LOAD
     #'''
-    model_dir = r"Z:\gpt2"
+    model_dir = m_model_dir #r"Z:\gpt2"
     tokenizer = GPT2Tokenizer.from_pretrained(model_dir)
     model = TFGPT2LMHeadModel.from_pretrained(model_dir)
     #'''
