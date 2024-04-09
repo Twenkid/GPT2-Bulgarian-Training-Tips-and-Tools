@@ -9,9 +9,27 @@ Scroll down for the GPT-2 part below
 
 ## BgGPT-7B-Instruct - running on Colab, tests, tools, tips etc.
 
+Има голям обем непубликуван материал и разработки: абонирайте се.
+
 27.2.2024: 
 
-* И други части в канала - вижте там.
+* И други части в канала - вижте там:
+
+## Влогове:
+
+* Премиера на BgGPT Онлайн: 3 март 2024! Какво се е случило? Влог и Анонс на следващите епизоди: https://youtu.be/Q10W6qL1UEo
+  
+ ![image](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/6dcf0a3d-6c8e-4435-8fd4-7aac4d62e273)
+
+* BAIHUI AI vs BGGPT. КОЙ Е ПЪРВИЯТ ЕЗИКОВ МОДЕЛ НА БЪЛГАРСКИ?: https://youtu.be/nERQ6iFb6nI
+  
+![image](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/00bafefd-7987-496d-8829-8482c4f0dc55)
+
+* BGGPT vs MISTRAL (оригиналът)  - Кой е по-добър и защо закъсня премиерата?
+  
+![image](https://github.com/Twenkid/GPT2-Bulgarian-Training-Tips-and-Tools/assets/23367640/e0408759-7c26-4729-a271-1a92eb31e160)
+
+  
 * **Част 3: Групови/пакетни заявки, Халюцинации, температура, top-k ...**
 * **BGGPT #3: ИЗКУСТВЕН ИНТЕЛЕКТ: ХАЛЮЦИНАЦИИ, ГРУПОВИ ЗАЯВКИ, ПРЕВОД, ПАРАМЕТРИ ... БЕЗПЛАТНО В КОЛАБ**
 
