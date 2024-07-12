@@ -4,6 +4,12 @@
 
 ## Transformers from scratch
 
+* 12.7.2024: GPT2-SMALL fine-tuning:
+https://www.kaggle.com/code/todora/gpt2-small-ban-ivi-11-7-2024
+At the moment it contains checkpoints in persistent mode. With the sample finetuning the dataset was too small.
+Downloading the files: https://www.kaggle.com/discussions/general/65351
+![image](https://github.com/user-attachments/assets/c67397b0-5e13-43cb-83e5-f848df415694)
+
 Scroll down for the GPT-2 part below
 
 * GPT-2 Note, 29.2.2024: The vocabulary size was 50255 instead of 50257! Lately I was trying to convert it to ggml format and work with it with the blazing fast library on the CPU, but still there are issues with the conversion (however due to some tensorflow-pytorch formats issues, I managed to pad the vocabulary-size difference. https://github.com/ggerganov/ggml/issues/745  ))
